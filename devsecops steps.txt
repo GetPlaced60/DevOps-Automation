@@ -1,0 +1,59 @@
+Jenkins use cat to get pass
+
+in nex-server use docker ps use the container id and use this command docker exec -it eb3f98e70a92 /bin/bash .the use cd / the use ls and get into nexus data then ls and use cat admin.password
+
+sudo chmod 666 /var/run/docker.sock in Jenkins-server to change the permissions of the Docker socket file. This file is used by the Docker daemon to communicate with other Docker components. By changing the permissions to 666, you are making the file readable and writable by all users.
+
+---------------------------------------------------------------
+go to jenkins - manage jenkins-
+
+Install below Plugins
+
+2.SonarQube Scanner
+
+3.Nexus Artifact Uploader
+
+4.Docker
+
+5.docker-build-step
+
+6.docker pipeline
+
+7.OWASP Dependency-Check
+
+8.Eclipse Temurin installer
+
+9.Pipeline Maven Integration
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+go into manage tools 
+
+jenkins-> tools-> add jdk-17 -> install automatically-> Install from adoptium.net -jdk17.09+9
+
+then go into SonarQube Scanner installations->configure scanner->sonar-scanner->default version
+
+maven-maven3-3.6.3
+
+dependency check installation DC 6.5.1
+
+docker-latest
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sonar Token-Admin- Security- Users
+
+Create credentials for sonar-token and docker-hub
+
+squ_795f33a6dbacee8232a763838924505de10213ef
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Jenkins Sonar Integration
+
+Manage Jenkins -> System -> SonarQube installations
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Jenkins Nexus Integration
+
+Manage Jenkins -> Managed files -> Add new config -> global-maven
+
+line -119 changes 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
