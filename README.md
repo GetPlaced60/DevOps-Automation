@@ -164,5 +164,6 @@ We welcome contributions! Please fork the repository and create a pull request w
 
 
 Happy DevOps Automation! If you have any questions or issues, please feel free to open an issue in this repository.
-
 ---
+
+### Authored by [Hitesh Vishwas Pogade](https://github.com/GetPlaced60)
