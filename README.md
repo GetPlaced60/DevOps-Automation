@@ -40,11 +40,8 @@ Before starting, ensure you have the following:
 ## Architecture Overview
 
 The architecture includes:
-
 ## VPC
-
 ![VPC](https://i.imgur.com/qhaluzs.jpg)
-
 - **SonarQube**: Static code analysis and continuous inspection of code quality
 - **Nexus**: Repository manager for binaries and build artifacts
 - **Jenkins**: Continuous Integration/Continuous Deployment (CI/CD) server
