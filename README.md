@@ -41,6 +41,8 @@ Before starting, ensure you have the following:
 
 The architecture includes:
 
+## VPC
+
 ![VPC](https://i.imgur.com/qhaluzs.jpg)
 
 - **SonarQube**: Static code analysis and continuous inspection of code quality
